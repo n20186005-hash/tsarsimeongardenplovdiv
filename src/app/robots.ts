@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { siteConfig } from '@/config';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -6,6 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://tsarsimeongardenplovdiv.com/sitemap.xml',
+    sitemap: `${siteConfig.baseUrl}/sitemap.xml`,
+    host: siteConfig.baseUrl,
   };
 }

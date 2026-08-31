@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { siteConfig } from '@/config';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -10,8 +11,8 @@ export default function Hero() {
       {/* Background image slideshow */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/tsar-simeon-garden-park (1).jpg"
-          alt="Tsar Simeon Garden Park"
+          src={siteConfig.heroImage}
+          alt="Tsar Simeon Garden Park - Main view in Plovdiv, Bulgaria"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />

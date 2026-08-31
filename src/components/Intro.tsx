@@ -25,6 +25,15 @@ export default function Intro() {
           {t('description')}
         </p>
 
+        {/* 地理面包屑：全称 → 城市 → 州 → 国家 */}
+        <p
+          className="mb-12 text-sm tracking-wide"
+          style={{ color: 'var(--text-muted)' }}
+          aria-label="Geographic breadcrumb"
+        >
+          {t('breadcrumb')}
+        </p>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div
             className="rounded-xl p-6 sm:p-8"

@@ -91,7 +91,8 @@ export default function CookieSettingsClient() {
         <h1 className="font-display text-3xl sm:text-4xl font-bold mb-3" style={{ color: 'var(--text-primary)' }}>
           {t('title')}
         </h1>
-        <p className="text-sm mb-10" style={{ color: 'var(--text-muted)' }}>{t('description')}</p>
+        <p className="text-sm mb-2" style={{ color: 'var(--text-muted)' }}>{t('description')}</p>
+        <p className="text-sm mb-10" style={{ color: 'var(--text-muted)' }}>{t('lastUpdated')}</p>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
         <div className="space-y-4 mb-8">

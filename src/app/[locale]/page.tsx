@@ -7,12 +7,19 @@ import BasicInfo from '@/components/BasicInfo';
 import HoursSection from '@/components/HoursSection';
 import TicketsSection from '@/components/TicketsSection';
 import TransportSection from '@/components/TransportSection';
+import BestTimeSection from '@/components/BestTimeSection';
+import FacilitiesSection from '@/components/FacilitiesSection';
+import HistorySection from '@/components/HistorySection';
+import LegendsSection from '@/components/LegendsSection';
+import EtiquetteSection from '@/components/EtiquetteSection';
 import InfoSection from '@/components/InfoSection';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import FAQSection from '@/components/FAQSection';
+import SourcesSection from '@/components/SourcesSection';
 import Footer from '@/components/Footer';
+import { siteConfig } from '@/config';
 
 export async function generateMetadata({
   params,
@@ -20,7 +27,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://tsarsimeongardenplovdiv.com';
+  const { baseUrl } = siteConfig;
   return {
     alternates: {
       canonical: `${baseUrl}/${locale}`,
@@ -28,7 +35,7 @@ export async function generateMetadata({
         'zh': `${baseUrl}/zh`,
         'en': `${baseUrl}/en`,
         'bg': `${baseUrl}/bg`,
-        'x-default': `${baseUrl}/en`,
+        'x-default': `${baseUrl}/bg`,
       },
     },
   };
@@ -52,11 +59,17 @@ export default async function HomePage({
         <HoursSection />
         <TicketsSection />
         <TransportSection />
+        <BestTimeSection />
+        <FacilitiesSection />
+        <HistorySection />
+        <LegendsSection />
         <InfoSection />
+        <EtiquetteSection />
         <Gallery />
         <Reviews />
         <FAQSection />
         <MapEmbed />
+        <SourcesSection />
       </main>
       <Footer />
     </>

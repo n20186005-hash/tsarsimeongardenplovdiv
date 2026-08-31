@@ -1,17 +1,18 @@
 {
   "meta": {
-    "title": "Tsar Simeon Garden Park – Plovdiv, Bulgaria",
-    "description": "Complete travel guide to Tsar Simeon Garden Park in Plovdiv. Learn about this historic park, including location, attractions, access, and visitor information."
+    "title": "\"Tsar Simeon Garden\" Park (Plovdiv) - Visitor Guide & Location",
+    "description": "Discover \"Tsar Simeon Garden\" Park, the iconic landmark in Plovdiv, Plovdiv Province, Bulgaria. View location map, opening details, nearby Ancient Roman Stadium, and travel tips."
   },
   "header": {
     "home": "Home",
+    "facilities": "Facilities",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Tsar Simeon Garden Park",
+    "title": "Tsar Simeon Garden Park (Plovdiv)",
     "subtitle": "Historic Park · Plovdiv, Bulgaria",
     "rating": "4.8",
     "reviewCount": "16,786 reviews",
@@ -21,7 +22,8 @@
   },
   "intro": {
     "title": "Discover Tsar Simeon Garden Park",
-    "description": "Tsar Simeon Garden Park is one of the most beautiful and historic parks in Plovdiv. Created in the late 19th century, it offers a unique combination of natural beauty, historic architecture, and cultural heritage.",
+    "description": "Welcome to \"Tsar Simeon Garden\" Park, widely recognized as the central Tsar Simeon Garden in Plovdiv. Located in the heart of Plovdiv, Plovdiv Province, Bulgaria, this destination serves as a primary hub for travelers visiting the region. Created in the late 19th century, it offers a unique combination of natural beauty, historic architecture, and cultural heritage. When visiting, you can easily explore surrounding historical landmarks, including the Ancient Roman Stadium and the Plovdiv Old Town.",
+    "breadcrumb": "Tsar Simeon Garden Park → Plovdiv → Plovdiv Province → Bulgaria",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
@@ -34,7 +36,7 @@
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "19th century Water Tower",
+        "Historic Water Tower",
         "Beautiful flower alleys",
         "Historic statues and monuments",
         "Expansive green areas"
@@ -47,12 +49,12 @@
       {
         "id": "history",
         "title": "History & Creation",
-        "content": "Tsar Simeon Garden Park was created in 1891-1892 according to the design of the famous Swiss landscape architect Lucien Cheriot. The park is named after Tsar Simeon I, who ruled Bulgaria in the 9th and 10th centuries."
+        "content": "Tsar Simeon Garden Park was created in 1892 according to the design of the Swiss landscape architect Lucien Chevalas. The park is named after Tsar Simeon I, who ruled Bulgaria in the 9th and 10th centuries."
       },
       {
         "id": "architecture",
         "title": "Architecture & Design",
-        "content": "The park was designed in the typical style of its time with wide alleys, decorative ponds, and diverse vegetation. The Water Tower, built in 1891, is one of the symbols of Plovdiv."
+        "content": "The park was designed in the typical style of its time with wide alleys, decorative ponds, and diverse vegetation. The historic Water Tower beside the park is a landmark of Plovdiv's water-supply history."
       },
       {
         "id": "geography",
@@ -84,6 +86,14 @@
       {
         "question": "Is the park accessible for wheelchair users?",
         "answer": "Yes, the main alleys are flat and accessible for wheelchairs. There are also special paths for people with reduced mobility."
+      },
+      {
+        "question": "How much time should I plan for a visit?",
+        "answer": "Usually 1-2 hours are enough for a walk through the park, but you can stay longer to enjoy the surroundings."
+      },
+      {
+        "question": "Is the park suitable for families with children?",
+        "answer": "Yes, the park is ideal for families with children – it has wide alleys, green lawns, and children's playgrounds."
       }
     ]
   },
@@ -98,7 +108,7 @@
     "city": "City",
     "cityValue": "Plovdiv",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.8 (16,786)",
+    "googleRatingValue": "4.8 (16,975)",
     "address": "Address",
     "addressValue": "ul. „Veliko Tarnovo“ 11А, 4000 Plovdiv, Bulgaria",
     "accessibility": "Accessibility",
@@ -111,6 +121,7 @@
     "park": "Park Access",
     "parkTime": "Open year-round, 24/7",
     "bestTime": "Best Time to Visit",
+    "seasonTitle": "Scenery Through the Seasons",
     "bestTimeSpring": "Spring: Blooming flowers and pleasant weather",
     "bestTimeSummer": "Summer: Cool evenings",
     "bestTimeAutumn": "Autumn: Golden colors and mild temperatures",
@@ -141,6 +152,157 @@
     "driving": "Driving & Parking",
     "drivingDesc": "Navigate to ul. „Veliko Tarnovo“ 11A. Note that the city center is mostly a paid parking zone (Blue Zone). Use public parking near the Central Square or Trimontium Hotel."
   },
+  "bestTime": {
+    "title": "Best Time to Visit",
+    "subtitle": "The garden is beautiful in every season, but a summer evening with the Singing Fountains is an experience not to be missed:",
+    "seasons": [
+      {
+        "id": "spring",
+        "title": "Spring (March–May)",
+        "text": "The flower alleys are in full bloom and temperatures are pleasant. The best time for photos and leisurely walks with fewer visitors."
+      },
+      {
+        "id": "summer",
+        "title": "Summer (June–August)",
+        "text": "Singing Fountains season! Choose the late afternoon and early evening – it is cooler, and the musical light-and-water shows are in full swing."
+      },
+      {
+        "id": "autumn",
+        "title": "Autumn (September–October)",
+        "text": "Golden colours and soft light make walks especially pleasant. The fountain programme usually continues, with show times moving earlier."
+      },
+      {
+        "id": "winter",
+        "title": "Winter (November–February)",
+        "text": "The quiet winter park offers tranquillity and unique shots of the architecture in deep greens and white."
+      }
+    ],
+    "note": "The Singing Fountains typically run from June to the end of September, Thursday to Saturday, free of charge. In summer the show starts around 9:00–9:30 PM, and in autumn around 8:30 PM. The exact schedule is announced annually by Plovdiv Municipality."
+  },
+  "facilities": {
+    "title": "Facilities & Services",
+    "subtitle": "Available amenities nearby (by type, with no recommendations of specific businesses):",
+    "items": [
+      {
+        "id": "toilets",
+        "title": "Public Toilets",
+        "desc": "Public toilets are available inside the park; additional public facilities are within a short walk in the city center."
+      },
+      {
+        "id": "parking",
+        "title": "Parking",
+        "desc": "The central zone is mostly paid parking (Blue Zone). Public parking, including underground facilities, is available nearby; public transport is recommended."
+      },
+      {
+        "id": "dining",
+        "title": "Dining & Coffee",
+        "desc": "Around the park you will find cafés, taverns, restaurants, and fast-food outlets of various types – from light snacks to full meals."
+      },
+      {
+        "id": "accommodation",
+        "title": "Accommodation",
+        "desc": "Within walking distance in the city center there are hotels, guest houses, apartments, and other types of lodging across different categories."
+      },
+      {
+        "id": "shopping",
+        "title": "Shopping",
+        "desc": "The city center offers shopping malls, supermarkets, and souvenir shops – convenient for buying food and water before a walk."
+      },
+      {
+        "id": "fuelEv",
+        "title": "Fuel & EV Charging",
+        "desc": "Fuel stations can be found around the center, while electric vehicle chargers are located at public parking lots and shopping facilities."
+      },
+      {
+        "id": "wifiAtm",
+        "title": "Wi-Fi & ATMs",
+        "desc": "Wireless internet is available at many cafés and public spots downtown; ATMs and bank branches are within easy reach."
+      },
+      {
+        "id": "family",
+        "title": "Families & Children",
+        "desc": "The park has a children's playground, rest benches, and large green lawns – ideal for family strolls and picnics."
+      }
+    ],
+    "note": "We are an independent informational website and do not recommend specific businesses. Only service types are listed; check exact locations on site or on maps."
+  },
+  "history": {
+    "title": "Historical Timeline",
+    "subtitle": "Key moments in the history of Tsar Simeon Garden:",
+    "items": [
+      {
+        "year": "1892",
+        "title": "Created for the First Exhibition",
+        "text": "The garden was created in 1892 for the First Bulgarian Agricultural-Industrial Exhibition, designed by Swiss landscape architect Lucien Chevalas. The exhibition's successor is today's International Fair – Plovdiv."
+      },
+      {
+        "year": "After 1892",
+        "title": "Named after Tsar Simeon",
+        "text": "After the exhibition closed, the garden was named \"Tsar Simeon's\" in honor of Tsar Simeon I (893–927), whose reign is considered the \"Golden Age\" of medieval Bulgaria."
+      },
+      {
+        "year": "19th–20th century",
+        "title": "Growth & Monuments",
+        "text": "Over the decades the garden became the city's main park – monuments, sculptures, and fountains were added, including the Demeter fountain by Italian sculptor Arnoldo Zòcchi, as well as the Fisherman and Bear fountains."
+      },
+      {
+        "year": "20th century",
+        "title": "A Monument of Park Art",
+        "text": "Tsar Simeon Garden was declared a monument of park art and is protected under Bulgarian cultural heritage law."
+      },
+      {
+        "year": "Today",
+        "title": "The Singing Fountains",
+        "text": "In the garden's pond, the \"Singing Fountains\" put on musical light-and-water shows in summer – an emblematic experience for residents and visitors alike."
+      }
+    ]
+  },
+  "legends": {
+    "title": "Stories & Legends",
+    "subtitle": "Historical facts and curious stories about the garden:",
+    "kinds": {
+      "fact": "Documented Fact",
+      "tradition": "Modern Tradition",
+      "story": "Historical Story"
+    },
+    "items": [
+      {
+        "id": "minister",
+        "kind": "fact",
+        "title": "The \"Minister of Flowers\"",
+        "text": "Swiss architect Lucien Chevalas became known for his floral compositions and was called the \"minister of flowers\" by his contemporaries. The garden he created was among Plovdiv's finest public spaces from the very start."
+      },
+      {
+        "id": "demeter",
+        "kind": "fact",
+        "title": "The Demeter Fountain",
+        "text": "Created by Italian sculptor Arnoldo Zòcchi, the fountain is the only surviving original object from the First Bulgarian Exhibition of 1892 and has kept its memory alive for decades."
+      },
+      {
+        "id": "singing",
+        "kind": "tradition",
+        "title": "Summer Nights with the Singing Fountains",
+        "text": "During the warm months the fountain pond comes alive with music, lights, and water jets. For generations of Plovdiv residents, the \"Singing Fountains\" are part of the city's summer memories."
+      },
+      {
+        "id": "name",
+        "kind": "story",
+        "title": "The Name of the Garden",
+        "text": "The garden bears the name of Tsar Simeon I – the ruler under whom medieval Bulgaria reached its cultural and political peak. Set in the heart of the city, it serves today as its \"green living room\"."
+      }
+    ]
+  },
+  "etiquette": {
+    "title": "Visit Guidelines & Tips",
+    "items": [
+      "Stick to the walkways and avoid stepping on flower beds and lawns.",
+      "Keep noise down and respect other visitors and open-air concerts.",
+      "Do not feed or disturb the animals in the park (birds and others).",
+      "Dispose of waste in the recycling bins.",
+      "Do not enter the ponds – some are decorative.",
+      "Supervise children while playing on the playground."
+    ]
+  },
   "gallery": {
     "title": "Photo Gallery",
     "subtitle": "Beauty of Tsar Simeon Garden Park",
@@ -164,9 +326,8 @@
       "Natural beauty",
       "Panoramic view"
     ],
-    "viewAll": "View on Google Maps",
-    "showAll": "View All Photos",
-    "showLess": "Show Less"
+    "viewMoreDesc": "More photos are available on Google Maps (external link).",
+    "viewAll": "View on Google Maps"
   },
   "reviews": {
     "title": "Visitor Reviews",
@@ -233,15 +394,50 @@
       "cultureMinistry": "Ministry of Culture",
       "mfaVisa": "MFA - Visa for Bulgaria"
     },
-    "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies."
+    "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies.",
+    "imageCredit": "All images displayed on this website are the property of their respective photographers, and all copyrights are retained by their owners.",
+    "lastUpdated": "Content last updated: August 31, 2026"
   },
   "officialManagement": {
     "title": "About Tsar Simeon Garden Park",
     "text": "Tsar Simeon Garden Park is managed and maintained by Plovdiv Municipality. The park is a protected area under Bulgarian cultural heritage laws."
   },
+  "sources": {
+    "title": "Sources & Official Information",
+    "subtitle": "Information on this site is gathered from the following official and public sources:",
+    "items": [
+      {
+        "name": "Plovdiv City Municipality",
+        "url": "https://www.plovdiv.bg/",
+        "note": "Official website of Plovdiv Municipality"
+      },
+      {
+        "name": "Visit Plovdiv",
+        "url": "http://www.visitplovdiv.com/",
+        "note": "Official tourism portal of Plovdiv"
+      },
+      {
+        "name": "Plovdiv Regional Administration",
+        "url": "https://pd.government.bg/",
+        "note": "Official regional administration website"
+      },
+      {
+        "name": "NINKN – National Institute for Immovable Cultural Heritage",
+        "url": "http://ninkn.bg/",
+        "note": "State institute for immovable cultural heritage"
+      },
+      {
+        "name": "Ministry of Tourism of the Republic of Bulgaria",
+        "url": "https://www.tourism.government.bg/",
+        "note": "National tourism authority"
+      }
+    ],
+    "note": "For official updates and regional tourism information, visit the official tourism portal of Bulgaria / Plovdiv.",
+    "portalLink": "Bulgaria / Plovdiv Official Tourism Portal"
+  },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: May 2026",
+    "lastUpdated": "Last updated: August 31, 2026",
     "sections": [
       {
         "heading": "Information Collection",
@@ -259,7 +455,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated: May 2026",
+    "lastUpdated": "Last updated: August 31, 2026",
     "sections": [
       {
         "heading": "Website Content and Use",
@@ -278,6 +474,7 @@
   "cookieSettings": {
     "title": "Cookie Settings",
     "description": "Manage your cookie preferences.",
+    "lastUpdated": "Last updated: August 31, 2026",
     "essential": {
       "title": "Essential Cookies",
       "description": "Necessary for basic website functionality and cannot be disabled.",

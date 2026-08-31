@@ -4,24 +4,24 @@ import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
 const photos = [
-  { src: '/gallery/tsar-simeon-garden-park (1).jpg', alt: 'Tsar Simeon Garden Park Photo 1' },
-  { src: '/gallery/tsar-simeon-garden-park (2).jpg', alt: 'Tsar Simeon Garden Park Photo 2' },
-  { src: '/gallery/tsar-simeon-garden-park (3).jpg', alt: 'Tsar Simeon Garden Park Photo 3' },
-  { src: '/gallery/tsar-simeon-garden-park (4).jpg', alt: 'Tsar Simeon Garden Park Photo 4' },
-  { src: '/gallery/tsar-simeon-garden-park (5).jpg', alt: 'Tsar Simeon Garden Park Photo 5' },
-  { src: '/gallery/tsar-simeon-garden-park (6).jpg', alt: 'Tsar Simeon Garden Park Photo 6' },
-  { src: '/gallery/tsar-simeon-garden-park (7).jpg', alt: 'Tsar Simeon Garden Park Photo 7' },
-  { src: '/gallery/tsar-simeon-garden-park (8).jpg', alt: 'Tsar Simeon Garden Park Photo 8' },
-  { src: '/gallery/tsar-simeon-garden-park (9).jpg', alt: 'Tsar Simeon Garden Park Photo 9' },
-  { src: '/gallery/tsar-simeon-garden-park (10).jpg', alt: 'Tsar Simeon Garden Park Photo 10' },
-  { src: '/gallery/tsar-simeon-garden-park (11).jpg', alt: 'Tsar Simeon Garden Park Photo 11' },
-  { src: '/gallery/tsar-simeon-garden-park (12).jpg', alt: 'Tsar Simeon Garden Park Photo 12' },
-  { src: '/gallery/tsar-simeon-garden-park (13).jpg', alt: 'Tsar Simeon Garden Park Photo 13' },
-  { src: '/gallery/tsar-simeon-garden-park (14).jpg', alt: 'Tsar Simeon Garden Park Photo 14' },
-  { src: '/gallery/tsar-simeon-garden-park (15).jpg', alt: 'Tsar Simeon Garden Park Photo 15' },
-  { src: '/gallery/tsar-simeon-garden-park (16).jpg', alt: 'Tsar Simeon Garden Park Photo 16' },
-  { src: '/gallery/tsar-simeon-garden-park (17).jpg', alt: 'Tsar Simeon Garden Park Photo 17' },
-  { src: '/gallery/tsar-simeon-garden-park (18).jpg', alt: 'Tsar Simeon Garden Park Photo 18' },
+  { src: '/gallery/tsar-simeon-garden-park-1.jpg', alt: 'Tsar Simeon Garden Park Water Tower in Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-2.jpg', alt: 'Flower alleys of Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-3.jpg', alt: 'Historic statues in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-4.jpg', alt: 'Decorative ponds in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-5.jpg', alt: 'Green areas of Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-6.jpg', alt: 'Architectural details in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-7.jpg', alt: 'Spring blossoms in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-8.jpg', alt: 'Autumn colors in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-9.jpg', alt: 'Monuments in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-10.jpg', alt: 'Street lamps of Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-11.jpg', alt: 'Trees and vegetation in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-12.jpg', alt: 'Rest benches in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-13.jpg', alt: 'Park entrances of Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-14.jpg', alt: 'Fountain details in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-15.jpg', alt: 'Walking paths in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-16.jpg', alt: 'Historic objects in Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-17.jpg', alt: 'Natural beauty of Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
+  { src: '/gallery/tsar-simeon-garden-park-18.jpg', alt: 'Panoramic view of Tsar Simeon Garden Park, Plovdiv, Bulgaria' },
 ];
 
 export default function Gallery() {
@@ -29,7 +29,6 @@ export default function Gallery() {
   const messages = useMessages() as any;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
-  const [showAll, setShowAll] = useState(false);
   const captions = (messages?.gallery?.captions || []) as string[];
 
   const galleryPhotos = photos.map((photo, i) => ({
@@ -48,7 +47,7 @@ export default function Gallery() {
   const openLightbox = () => setIsLightboxOpen(true);
   const closeLightbox = () => setIsLightboxOpen(false);
 
-  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/Dupzqbpja8DxWKSH8';
+  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/toDts5VqGcTJ4NhLA';
 
   return (
     <>
@@ -68,7 +67,7 @@ export default function Gallery() {
               {galleryPhotos.map((photo, i) => (
                 <div
                   key={i}
-                  className={`gallery-item relative group cursor-pointer ${i === 0 && !showAll ? 'col-span-2 row-span-2' : ''}`}
+                  className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
                   onClick={() => {
                     setCurrentIndex(i);
                     openLightbox();
@@ -89,29 +88,6 @@ export default function Gallery() {
                 </div>
               ))}
             </div>
-
-            {showAll && (
-              <>
-                <button
-                  onClick={goToPrevious}
-                  className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-                  aria-label="Previous photo"
-                >
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <polyline points="15 18 9 12 15 6" />
-                  </svg>
-                </button>
-                <button
-                  onClick={goToNext}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-                  aria-label="Next photo"
-                >
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <polyline points="9 18 15 12 9 6" />
-                  </svg>
-                </button>
-              </>
-            )}
 
             <div className="flex flex-col sm:flex-row justify-center mt-6 gap-2 sm:gap-4 items-center">
               {t.has('viewMoreDesc') && (
