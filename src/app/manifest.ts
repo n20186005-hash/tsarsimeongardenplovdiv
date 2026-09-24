@@ -3,7 +3,7 @@ import { siteConfig } from '@/config';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Tsar Simeon Garden Park – Plovdiv, Bulgaria',
+    name: 'Tsar Simeon Garden Park, Plovdiv – Travel Guide',
     short_name: 'Tsar Simeon Garden',
     description:
       'Visitor guide to "Tsar Simeon Garden" Park in Plovdiv, Plovdiv Province, Bulgaria.',

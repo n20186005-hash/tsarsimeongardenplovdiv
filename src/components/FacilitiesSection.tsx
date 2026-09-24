@@ -58,6 +58,19 @@ const icons: Record<string, React.ReactNode> = {
       <path d="M16 21v-1.5a4.5 4.5 0 0 1 3-4.2" />
     </svg>
   ),
+  medical: (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <path d="M12 8v8M8 12h8" />
+    </svg>
+  ),
+  bike: (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="6" cy="17" r="3" />
+      <circle cx="18" cy="17" r="3" />
+      <path d="M6 17l4-7h5l3 7M10 10l2 7" />
+    </svg>
+  ),
 };
 
 export default function FacilitiesSection() {

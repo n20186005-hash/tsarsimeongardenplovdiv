@@ -6,6 +6,15 @@ const locales = ['bg', 'en', 'zh'];
 const defaultLocale = 'bg';
 
 export function middleware(request: NextRequest) {
+  const { hostname } = request.nextUrl;
+
+  // 统一 www → apex（非 www），消除 GSC 中 www 与裸域重复收录
+  if (hostname.startsWith('www.')) {
+    const url = request.nextUrl.clone();
+    url.hostname = hostname.replace(/^www\./, '');
+    return NextResponse.redirect(url);
+  }
+
   const { pathname } = request.nextUrl;
 
   const hasLocale = locales.some(

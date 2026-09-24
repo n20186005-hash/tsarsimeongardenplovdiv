@@ -1,10 +1,13 @@
 {
   "meta": {
-    "title": "\"Tsar Simeon Garden\" Park (Plovdiv) - Visitor Guide & Location",
-    "description": "Discover \"Tsar Simeon Garden\" Park, the iconic landmark in Plovdiv, Plovdiv Province, Bulgaria. View location map, opening details, nearby Ancient Roman Stadium, and travel tips."
+    "title": "Tsar Simeon Garden Plovdiv – Singing Fountains, Hours & Visitor Guide",
+    "description": "Plan your visit to Tsar Simeon Garden Park in Plovdiv: the famous Singing Fountains show times, free 24/7 park access, opening details, map, and nearby Ancient Roman Stadium & Old Town."
   },
   "header": {
     "home": "Home",
+    "transport": "Getting There",
+    "weather": "Weather",
+    "itineraries": "Itineraries",
     "facilities": "Facilities",
     "gallery": "Gallery",
     "reviews": "Reviews",
@@ -15,7 +18,7 @@
     "title": "Tsar Simeon Garden Park (Plovdiv)",
     "subtitle": "Historic Park · Plovdiv, Bulgaria",
     "rating": "4.8",
-    "reviewCount": "16,786 reviews",
+    "reviewCount": "17,019 reviews",
     "type": "Park",
     "openMaps": "View on Google Maps",
     "mapsLink": "https://maps.app.goo.gl/toDts5VqGcTJ4NhLA"
@@ -68,9 +71,105 @@
       }
     ]
   },
+  "weather": {
+    "title": "Weather & Best Time to Go",
+    "subtitle": "Current conditions and the next few days in Plovdiv, refreshed automatically so you can plan your visit.",
+    "feelsLike": "Feels like",
+    "precip": "Rain",
+    "wind": "Wind",
+    "humidity": "Humidity",
+    "forecast": "7-Day Forecast",
+    "adviceRisk": "Safety notice",
+    "adviceOutfit": "What to wear",
+    "advicePlan": "How to plan your walk",
+    "adviceItems": "Handy to bring",
+    "unavailable": "Live weather is temporarily unavailable. Please check a local forecast before you set off."
+  },
+  "seasonal": {
+    "title": "Seasonal Visiting Strategy",
+    "subtitle": "Based on Plovdiv's long-term continental climate (warm summers, cold winters), here is how each season shapes a visit.",
+    "cols": {
+      "season": "Season",
+      "climate": "Typical weather",
+      "bestTime": "Best time to visit",
+      "bring": "What to wear & bring",
+      "notes": "Notes"
+    },
+    "rows": [
+      {
+        "season": "Spring (Mar–May)",
+        "climate": "Mild and green; flowers in full bloom, with the occasional shower.",
+        "bestTime": "Mid-morning to late afternoon; comfortable on most days.",
+        "bring": "Light jacket, comfortable shoes, small umbrella.",
+        "notes": "The flower alleys and the early Singing Fountains season are the highlights."
+      },
+      {
+        "season": "Summer (Jun–Aug)",
+        "climate": "Hot and dry; daytime peaks often above 30°C.",
+        "bestTime": "Early morning and evening; fountain shows after sunset.",
+        "bring": "Sun hat, sunscreen, water bottle, light clothing.",
+        "notes": "The Singing Fountains run in summer – cooler evenings are the best window."
+      },
+      {
+        "season": "Autumn (Sep–Oct)",
+        "climate": "Warm, golden and calm; fewer crowds than summer.",
+        "bestTime": "Daytime walks; fountain shows move to earlier hours.",
+        "bring": "Light layers, comfortable shoes.",
+        "notes": "Stable, pleasant weather makes this a favourite season for photos."
+      },
+      {
+        "season": "Winter (Nov–Feb)",
+        "climate": "Cold, sometimes below freezing; possible snow and fog.",
+        "bestTime": "Midday, when it is brightest and warmest.",
+        "bring": "Warm coat, hat, gloves, non-slip shoes.",
+        "notes": "A quiet atmosphere and architectural views in deep greens and white."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Itineraries & Routes",
+    "subtitle": "Suggested ways to explore the park by time and by travel style. Adjust them to your own pace.",
+    "genericTitle": "Suggested routes",
+    "halfDay": {
+      "title": "Half-day highlights",
+      "desc": "Enter from the Central Square, stroll the main alleys to the historic Water Tower, pause at the fountains and flower beds, then return via the shaded promenade. About 1.5–2 hours at a relaxed pace."
+    },
+    "fullDay": {
+      "title": "Full-day deep visit",
+      "desc": "Pair the morning walk with surrounding landmarks – the Ancient Roman Stadium and Plovdiv Old Town. Add a café stop and the Singing Fountains in the evening for a complete day."
+    },
+    "personasTitle": "Tailored to your group",
+    "personas": {
+      "items": [
+        {
+          "id": "family",
+          "title": "Families with children",
+          "desc": "Use the flat main alleys and the children's playground; pack water and snacks, and keep the walk short and playful."
+        },
+        {
+          "id": "photo",
+          "title": "Photographers & nature",
+          "desc": "Golden hour near the fountains and Water Tower, spring blossoms and autumn colours; bring a light tripod for the evening shows."
+        },
+        {
+          "id": "accessible",
+          "title": "Low-effort / accessible",
+          "desc": "Stay on the step-free central paths, use nearby benches for rests, and plan around shade and the warmest part of the day."
+        }
+      ]
+    }
+  },
   "faq": {
     "title": "Frequently Asked Questions",
     "items": [
+      {
+        "question": "Where is \"Tsar Simeon Garden\" Park located?",
+        "answer": "\"Tsar Simeon Garden\" Park is located in Plovdiv, Plovdiv Province, Bulgaria."
+      },
+      {
+        "question": "Is Tsar Simeon Garden free to visit?",
+        "answer": "Yes, \"Tsar Simeon Garden\" Park is a public space and is free to visit year-round."
+      },
       {
         "question": "What are the opening hours of the park?",
         "answer": "The park is open to visitors year-round, 24 hours a day. There is no entrance fee."
@@ -108,7 +207,7 @@
     "city": "City",
     "cityValue": "Plovdiv",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.8 (16,975)",
+    "googleRatingValue": "4.8 (17,019)",
     "address": "Address",
     "addressValue": "ul. „Veliko Tarnovo“ 11А, 4000 Plovdiv, Bulgaria",
     "accessibility": "Accessibility",
@@ -150,7 +249,9 @@
     "walking": "Walking Tours",
     "walkingDesc": "The park is seamlessly connected to other historical sites in the center. Walking is highly recommended as part of a city tour.",
     "driving": "Driving & Parking",
-    "drivingDesc": "Navigate to ul. „Veliko Tarnovo“ 11A. Note that the city center is mostly a paid parking zone (Blue Zone). Use public parking near the Central Square or Trimontium Hotel."
+    "drivingDesc": "Navigate to ul. „Veliko Tarnovo“ 11A. Note that the city center is mostly a paid parking zone (Blue Zone). Use public parking near the Central Square or Trimontium Hotel.",
+    "taxi": "Taxi & Rideshare",
+    "taxiDesc": "Taxis and app-based rides are easy to find at the railway and bus stations and at the airport. Ask the driver to use the meter or agree on a fare first; a ride from the center to the park is usually short and inexpensive."
   },
   "bestTime": {
     "title": "Best Time to Visit",
@@ -222,6 +323,16 @@
         "id": "family",
         "title": "Families & Children",
         "desc": "The park has a children's playground, rest benches, and large green lawns – ideal for family strolls and picnics."
+      },
+      {
+        "id": "medical",
+        "title": "Medical & Pharmacy",
+        "desc": "Pharmacies and medical centers are within a short walk in the city center; in an emergency, dial 112, Bulgaria's national emergency number."
+      },
+      {
+        "id": "bike",
+        "title": "Bike Rental",
+        "desc": "Bicycle rental points and bike-share stations can be found around the center; the flat main alleys are pleasant for a relaxed ride."
       }
     ],
     "note": "We are an independent informational website and do not recommend specific businesses. Only service types are listed; check exact locations on site or on maps."

@@ -115,6 +115,7 @@ export default async function LocaleLayout({
     attractionFullName,
     attractionName,
     attractionLocalName,
+    attractionShortName,
     city,
     stateProvince,
     country,
@@ -125,6 +126,8 @@ export default async function LocaleLayout({
     longitude,
     mapsShareUrl,
     govtTourismUrl,
+    rating,
+    reviewCount,
     ogImage,
   } = siteConfig;
 
@@ -133,10 +136,11 @@ export default async function LocaleLayout({
   // ---- Schema.org / JSON-LD 结构化数据 ----
   const touristAttraction = {
     '@context': 'https://schema.org',
-    '@type': 'TouristAttraction',
+    '@type': ['TouristAttraction', 'Park'],
     '@id': `${baseUrl}/#attraction`,
     name: attractionFullName,
     alternateName: [
+      attractionShortName,
       attractionName,
       attractionLocalName,
       `${city} ${attractionFullName}`,
@@ -145,6 +149,11 @@ export default async function LocaleLayout({
     url: baseUrl,
     image: [`${baseUrl}${ogImage}`],
     isAccessibleForFree: true,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: rating,
+      reviewCount: Number(reviewCount.replace(/,/g, '')),
+    },
     address: {
       '@type': 'PostalAddress',
       streetAddress,

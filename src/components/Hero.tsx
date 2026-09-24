@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src={siteConfig.heroImage}
-          alt="Tsar Simeon Garden Park - Main view in Plovdiv, Bulgaria"
+          alt={`${siteConfig.attractionFullName} - Main view in ${siteConfig.city}, ${siteConfig.country}`}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
