@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tsar Simeon Garden Plovdiv – Singing Fountains, Hours & Visitor Guide",
-    "description": "Plan your visit to Tsar Simeon Garden Park in Plovdiv: the famous Singing Fountains show times, free 24/7 park access, opening details, map, and nearby Ancient Roman Stadium & Old Town."
+    "title": "Tsar Simeon Garden, Plovdiv | Fountains & Visitor Guide",
+    "description": "Plan your visit to Tsar Simeon Garden Park in Plovdiv: the famous Singing Fountains show, free 24/7 park access, map, how to get here, and nearby Ancient Roman Stadium & Old Town."
   },
   "header": {
     "home": "Home",
@@ -18,14 +18,14 @@
     "title": "Tsar Simeon Garden Park (Plovdiv)",
     "subtitle": "Historic Park · Plovdiv, Bulgaria",
     "rating": "4.8",
-    "reviewCount": "17,019 reviews",
+    "reviewCount": "17,064 reviews",
     "type": "Park",
     "openMaps": "View on Google Maps",
     "mapsLink": "https://maps.app.goo.gl/toDts5VqGcTJ4NhLA"
   },
   "intro": {
     "title": "Discover Tsar Simeon Garden Park",
-    "description": "Welcome to \"Tsar Simeon Garden\" Park, widely recognized as the central Tsar Simeon Garden in Plovdiv. Located in the heart of Plovdiv, Plovdiv Province, Bulgaria, this destination serves as a primary hub for travelers visiting the region. Created in the late 19th century, it offers a unique combination of natural beauty, historic architecture, and cultural heritage. When visiting, you can easily explore surrounding historical landmarks, including the Ancient Roman Stadium and the Plovdiv Old Town.",
+    "description": "Welcome to \"Tsar Simeon Garden\" Park, widely recognized as the central Tsar Simeon Garden in Plovdiv. Located in the heart of Plovdiv, Plovdiv Province, Bulgaria, this destination serves as a primary hub for travelers visiting the region. Created in the late 19th century, it offers a unique combination of natural beauty, historic architecture, and cultural heritage. When visiting, you can easily explore surrounding historical landmarks, including the Ancient Roman Stadium and the Plovdiv Old Town. This guide is an independent, non-commercial project and is not affiliated with the park's management or any government body.",
     "breadcrumb": "Tsar Simeon Garden Park → Plovdiv → Plovdiv Province → Bulgaria",
     "visitGuide": {
       "title": "Visit Tips",
@@ -33,13 +33,13 @@
         "Best time to visit is spring when flowers are blooming.",
         "The park is ideal for walks and picnics.",
         "Wear comfortable shoes for walking.",
-        "Don't miss the Water Tower and historic statues."
+        "Don't miss the central fountains and historic statues."
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "Historic Water Tower",
+        "Singing Fountains (musical light-and-water show)",
         "Beautiful flower alleys",
         "Historic statues and monuments",
         "Expansive green areas"
@@ -57,7 +57,7 @@
       {
         "id": "architecture",
         "title": "Architecture & Design",
-        "content": "The park was designed in the typical style of its time with wide alleys, decorative ponds, and diverse vegetation. The historic Water Tower beside the park is a landmark of Plovdiv's water-supply history."
+        "content": "The park was designed in the typical style of its time with wide alleys, decorative ponds, flower beds, and diverse vegetation. The main composition centres on the central pond with the Singing Fountains and the historic Demeter fountain by Arnoldo Zòcchi."
       },
       {
         "id": "geography",
@@ -132,7 +132,7 @@
     "genericTitle": "Suggested routes",
     "halfDay": {
       "title": "Half-day highlights",
-      "desc": "Enter from the Central Square, stroll the main alleys to the historic Water Tower, pause at the fountains and flower beds, then return via the shaded promenade. About 1.5–2 hours at a relaxed pace."
+      "desc": "Enter from the Central Square, stroll the main alleys to the central pond, pause at the fountains and flower beds, then return via the shaded promenade. About 1.5–2 hours at a relaxed pace."
     },
     "fullDay": {
       "title": "Full-day deep visit",
@@ -149,7 +149,7 @@
         {
           "id": "photo",
           "title": "Photographers & nature",
-          "desc": "Golden hour near the fountains and Water Tower, spring blossoms and autumn colours; bring a light tripod for the evening shows."
+          "desc": "Golden hour near the fountains, main alleys and historic statues, spring blossoms and autumn colours; bring a light tripod for the evening shows."
         },
         {
           "id": "accessible",
@@ -184,7 +184,7 @@
       },
       {
         "question": "Is the park accessible for wheelchair users?",
-        "answer": "Yes, the main alleys are flat and accessible for wheelchairs. There are also special paths for people with reduced mobility."
+        "answer": "The central promenade and main alleys are paved and step-free, suitable for wheelchairs and strollers. A few connecting side paths have low curbs. We have not independently verified every entrance and the on-site toilet, so arriving via the main entrance by the Central Square is the safest choice."
       },
       {
         "question": "How much time should I plan for a visit?",
@@ -207,11 +207,11 @@
     "city": "City",
     "cityValue": "Plovdiv",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.8 (17,019)",
+    "googleRatingValue": "4.8 (17,064)",
     "address": "Address",
     "addressValue": "ul. „Veliko Tarnovo“ 11А, 4000 Plovdiv, Bulgaria",
     "accessibility": "Accessibility",
-    "accessibilityValue": "Fully accessible",
+    "accessibilityValue": "Step-free central alleys; some side paths have curbs",
     "plusCode": "Plus Code",
     "plusCodeValue": "4PRW+JP"
   },
@@ -278,7 +278,7 @@
         "text": "The quiet winter park offers tranquillity and unique shots of the architecture in deep greens and white."
       }
     ],
-    "note": "The Singing Fountains typically run from June to the end of September, Thursday to Saturday, free of charge. In summer the show starts around 9:00–9:30 PM, and in autumn around 8:30 PM. The exact schedule is announced annually by Plovdiv Municipality."
+    "note": "The Singing Fountains are a seasonal, free open-air show that usually runs in summer (commonly June to the end of September). Exact performance days and start times are set every year by Plovdiv Municipality. At the time of writing we could not confirm the current-year schedule, so please check the official Plovdiv Municipality / Visit Plovdiv programme before you go. This page is updated as soon as a verified schedule is published."
   },
   "facilities": {
     "title": "Facilities & Services",
@@ -418,7 +418,7 @@
     "title": "Photo Gallery",
     "subtitle": "Beauty of Tsar Simeon Garden Park",
     "captions": [
-      "Water Tower",
+      "Central fountain",
       "Flower alleys",
       "Historic statues",
       "Decorative ponds",
@@ -444,44 +444,7 @@
     "title": "Visitor Reviews",
     "declaration": "Reviews can be viewed via Google Maps.",
     "moreReviews": "View more reviews on Google Maps",
-    "items": [
-      {
-        "name": "Ivan P.",
-        "rating": 5,
-        "date": "2026-04-15",
-        "text": "Wonderful park with rich history. The Water Tower is amazing!"
-      },
-      {
-        "name": "Maria K.",
-        "rating": 5,
-        "date": "2026-03-28",
-        "text": "One of the most beautiful parks I have visited. Perfect for a walk."
-      },
-      {
-        "name": "Georgi S.",
-        "rating": 5,
-        "date": "2026-02-10",
-        "text": "Historic atmosphere and beautiful nature. Recommended for all ages."
-      },
-      {
-        "name": "Elena T.",
-        "rating": 4,
-        "date": "2026-01-20",
-        "text": "Lots of greenery and peace. Good place for a family picnic."
-      },
-      {
-        "name": "Peter D.",
-        "rating": 5,
-        "date": "2025-12-05",
-        "text": "Unique park with excellent maintenance. Ideal for a morning walk."
-      },
-      {
-        "name": "Sveta M.",
-        "rating": 5,
-        "date": "2025-11-18",
-        "text": "One of the symbols of Plovdiv. A must-visit place!"
-      }
-    ]
+    "items": []
   },
   "mapSection": {
     "title": "Map Location",

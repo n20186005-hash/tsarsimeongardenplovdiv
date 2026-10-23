@@ -48,7 +48,7 @@ export const siteConfig = {
 
   // —— 评分信息 ——
   rating: '4.8',
-  reviewCount: '17,019',
+  reviewCount: '17,064',
 } as const;
 
 export type SiteConfig = typeof siteConfig;

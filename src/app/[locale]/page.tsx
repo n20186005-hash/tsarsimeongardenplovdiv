@@ -21,6 +21,7 @@ import SourcesSection from '@/components/SourcesSection';
 import WeatherSection from '@/components/WeatherSection';
 import SeasonalStrategy from '@/components/SeasonalStrategy';
 import Itineraries from '@/components/Itineraries';
+import TopicLinks from '@/components/TopicLinks';
 import Footer from '@/components/Footer';
 import { siteConfig } from '@/config';
 
@@ -69,6 +70,7 @@ export default async function HomePage({
         <HistorySection />
         <LegendsSection />
         <Itineraries />
+        <TopicLinks locale={locale} />
         <InfoSection />
         <EtiquetteSection />
         <Gallery />
